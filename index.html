@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="titu">
+            Network
+        </div>
+        <h1>Your Feed</h1>
+        <main>
+            <div class="sub-main1">
+                <div class="column-iz">
+                    <img  class="avatar"  src="./avatar.png" alt="Avatar del perfil">
+                    <a href="#">Add on avatar</a>
+                    James Doe
+                </div>
+            </div>
+            <div class="sub-main2">
+                <div class="column-der1">
+                    <div class="cabezaDe1">
+                        <p>Neil M</p> <p class="aumentoLikesNeil">9</p> <p>Like(s)</p>
+                        <button class="btnLike" onclick="aumentarLike(this)"> Like</button>
+                    </div>
+                    <div class="cuerpoDer1">
+                        I just set up this new discord bot, let me
+                        <p>know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="column-der2">
+                    <div class="cabezaDe2">
+                        <p>Nichole K</p> <p class="aumentoLikesNichole">12</p> <p>Like(s)</p>
+                        <button class="btnLike" onclick="aumentarLike2(this)"> Like</button>
+                    </div>
+                    <div class="cuerpoDer2">
+                        Just finised my <a href="#">next comic,</a> check it out
+                    </div>
+                </div>
+                <div class="column-der3">
+                    <div class="cabezaDe3">
+                        <p>Jim R</p> <p class="aumentoLikesJim">9</p> <p>Like(s)</p>
+                        <button class="btnLike" onclick="aumentarLike3(this)"> Like</button>
+                    </div>
+                    <div class="cuerpoDer3">
+                        I can`t stop listening to the <a href="#">new album.</a>
+                        <p>Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </div>
+</body>
+</html>
